@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get('/adopted', function(req, res){
+router.get('/soto', function(req, res){
     res.send({message:'You just adopted a cat'});
 })
 
